@@ -8,81 +8,124 @@ z2
 !i10f 100
 cModel Technology
 dD:/Sophomore Year/ECE222/Final Project
+Ealu32
+Z0 w1604257992
+Z1 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z2 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dD:/ModelSim/CompArch
+Z6 8D:/ModelSim/CompArch/alu32.vhd
+Z7 FD:/ModelSim/CompArch/alu32.vhd
+l0
+L4
+VGLPi<TIgz8EKO7Mo6mdSb1
+!s100 0@1l>ma>2@`ZWXI36Qk6;2
+Z8 OV;C;10.6d;65
+32
+Z9 !s110 1604257999
+!i10b 1
+Z10 !s108 1604257999.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/alu32.vhd|
+Z12 !s107 D:/ModelSim/CompArch/alu32.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abig_alu
+R1
+R2
+R3
+R4
+Z15 DEx4 work 5 alu32 0 22 GLPi<TIgz8EKO7Mo6mdSb1
+l24
+L11
+VdgIS00=]JGDa1lcB[Da:]2
+!s100 [Q[bHObD^LjVPlB6>GF5<1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
 Ebit_slice
-Z0 w1603235773
-Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 dD:/ModelSim/CompArch
-Z4 8D:\ModelSim\CompArch\bit_slice.vhd
-Z5 FD:\ModelSim\CompArch\bit_slice.vhd
+Z16 w1603235773
+R3
+R4
+R5
+Z17 8D:\ModelSim\CompArch\bit_slice.vhd
+Z18 FD:\ModelSim\CompArch\bit_slice.vhd
 l0
 L4
 V>n6WY`n2gBYGE;Nl183>_1
 !s100 l]:<n9JkzD5Ae1hOm]07e1
-Z6 OV;C;10.6d;65
+R8
 32
-Z7 !s110 1603237432
+Z19 !s110 1604257998
 !i10b 1
-Z8 !s108 1603237431.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\ModelSim\CompArch\bit_slice.vhd|
-Z10 !s107 D:\ModelSim\CompArch\bit_slice.vhd|
+Z20 !s108 1604257998.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\ModelSim\CompArch\bit_slice.vhd|
+Z22 !s107 D:\ModelSim\CompArch\bit_slice.vhd|
 !i113 1
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1 CvgOpt 0
+R13
+R14
 Astdbitslice
-R1
-R2
+R3
+R4
 DEx4 work 9 bit_slice 0 22 >n6WY`n2gBYGE;Nl183>_1
 l15
 L12
 V:`GNJ;Mod96Qba;a1SPKY2
 !s100 N@]2;KQZWaaIIU51GFAgb0
-R6
-32
-R7
-!i10b 1
 R8
-R9
-R10
+32
+R19
+!i10b 1
+R20
+R21
+R22
 !i113 1
-R11
-R12
+R13
+R14
 Emsb_slice
-Z13 w1603237425
-R1
-R2
+Z23 w1603237425
 R3
-Z14 8D:/ModelSim/CompArch/MSB_slice.vhd
-Z15 FD:/ModelSim/CompArch/MSB_slice.vhd
+R4
+R5
+Z24 8D:/ModelSim/CompArch/MSB_slice.vhd
+Z25 FD:/ModelSim/CompArch/MSB_slice.vhd
 l0
 L4
 V>[NeiIDc^b95HdUjc3bhe0
 !s100 LEXnk@l:KL?g]_Kg;PIdg1
-R6
+R8
 32
-R7
+R19
 !i10b 1
-Z16 !s108 1603237432.000000
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/MSB_slice.vhd|
-!s107 D:/ModelSim/CompArch/MSB_slice.vhd|
+R20
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/MSB_slice.vhd|
+Z27 !s107 D:/ModelSim/CompArch/MSB_slice.vhd|
 !i113 1
-R11
-R12
+R13
+R14
 Amsbbitslice
-R1
-R2
+R3
+R4
 DEx4 work 9 msb_slice 0 22 >[NeiIDc^b95HdUjc3bhe0
 l15
 L12
 VigHA<^ZP3R^>JL6E[0n9A3
 !s100 T:^?T:k[2[i:3f<CEg`RK0
-R6
+R8
 32
-R7
+R19
 !i10b 1
-R16
-R17
-Z18 !s107 D:/ModelSim/CompArch/MSB_slice.vhd|
+R20
+R26
+R27
 !i113 1
-R11
-R12
+R13
+R14
