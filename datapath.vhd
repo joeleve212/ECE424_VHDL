@@ -86,15 +86,20 @@ architecture dataBoi of datapath is
 		  DOUT: out mips_data);
 	end COMPONENT;
 
+	COMPONENT shiftleft 
+	   port( INDATA: in mips_data;
+		  OUTDATA: out mips_data);
+	end COMPONENT;
+
 	SIGNAL sys_clock : std_logic := '0';
 	CONSTANT Tcycle : time := 100 ns;
 	
-	SIGNAL inst : std_logic_vector( 31 downto 0);
-	SIGNAL defNextPC, wRegData, aluIn0, aluIn1, mux2in0, mux2in1  : std_logic_vector( 31 downto 0);
-	SIGNAL REGDST, BRANCH, MEMREAD, MEMTOREG, MEMWRITE, ALUSRC, REGWRITE : std_logic;
+	SIGNAL inst, ALUResult, outMuxIn1, branchALUin1, wDataMuxin0 : std_logic_vector( 31 downto 0);
+	SIGNAL defNextPC, WriteData, aluIn0, aluIn1, mux2in0, mux2in1  : std_logic_vector( 31 downto 0);
+	SIGNAL REGDST, BRANCH, MEMREAD, MEMTOREG, MEMWRITE, ALUSRC, REGWRITE, Zero, outMuxSel : std_logic;
 	SIGNAL ALUOp : std_logic_vector(1 downto 0);
 	SIGNAL wRegIn : std_logic_vector(4 downto 0);
-	--SIGNAL 
+	SIGNAL mainALUctl : std_logic_vector(3 downto 0);
 	
 	BEGIN
 
@@ -125,7 +130,7 @@ architecture dataBoi of datapath is
 	
 	reg: reg_file PORT MAP( 
 		a1=> inst(25 downto 21), a2 => inst(20 downto 16), a3 => wRegIn,
-		q1 => aluIn0, q2 => mux2in0, d3=> wRegData, write_en=> REGWRITE, CLK => sys_clock
+		q1 => aluIn0, q2 => mux2in0, d3=> WriteData, write_en=> REGWRITE, CLK => sys_clock
 	);
 	
 	sign: signextend PORT MAP( 
@@ -134,6 +139,36 @@ architecture dataBoi of datapath is
 	
 	muxTheSecond: mux2 PORT MAP( 
 		IN0=>mux2in0, IN1=> mux2in1, SEL=>ALUSRC, DOUT => aluIn1
+	);
+	
+	ALUctl: alu_control PORT MAP(
+		INSTR=> inst(5 downto 0), ALUop => ALUOp, ALUctrl => mainALUctl
+	);
+	
+	mainALU: alu32 PORT MAP( 
+		a=>aluIn0, b=>aluIn1, ALUOp=> mainALUctl, RESULT => ALUResult, Z=>Zero, V=>open, C=>oPEN
+	);
+	
+	shift: shiftleft PORT MAP( 
+		INDATA=>mux2in1, OUTDATA=>branchALUin1
+	);
+	
+	branchALU: alu32 PORT MAP( 
+		a=>defNextPC, b=>branchALUin1, ALUOP=>"0010", RESULT=>outMuxIn1, Z=>open, C=>opEn, V=>OpEN
+	);
+	
+	outMuxSel <= branch and Zero;
+	
+	outMux: mux2 PORT MAP( 
+		IN0=>defNextPC,IN1=>outMuxIn1, SEL=> outMuxSel, DOUT => nextPC
+	);
+	
+	dmem: dmemory PORT MAP( 
+		ADDR => ALUResult, DIN => mux2in0, DOUT => wDataMuxin0, CLK => sys_clock, WE => memWrite, RE =>memRead
+	);
+	
+	wDataMux: mux2 PORT MAP( 
+		IN0 => wDataMuxin0, IN1=>ALUResult, sel=>memToReg, DOUT=>WriteData
 	);
 	
 end dataBoi;

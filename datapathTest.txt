@@ -1,0 +1,11 @@
+force -freeze /pc X"00000000" 0
+force -freeze /pc X"00000004" 100
+force -freeze /pc X"00000008" 200
+force -freeze /pc X"0000000C" 300
+force -freeze /pc X"00000010" 400
+force -freeze /pc X"00000014" 500
+force -freeze /pc X"00000000" 600
+force -freeze /pc X"00000004" 800
+force -freeze /pc X"00000008" 900
+
+run 1000
