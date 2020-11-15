@@ -27,14 +27,14 @@ begin
   PROCESS(INSTR,ALUOP)
   BEGIN
      case ALUOP is
-        when "00" => ALUCTRL <= "----";
-        when "01" => ALUCTRL <= "----";
+        when "00" => ALUCTRL <= "0010";
+        when "01" => ALUCTRL <= "0110";
         when "10" => case INSTR is
-                        when "100000" => ALUCTRL <= "----";
-                        when "100010" => ALUCTRL <= "----";
-                        when "100100" => ALUCTRL <= "----";
-                        when "100101" => ALUCTRL <= "----";
-                        when "101010" => ALUCTRL <= "----";
+                        when "100000" => ALUCTRL <= "0010";
+                        when "100010" => ALUCTRL <= "0110";
+                        when "100100" => ALUCTRL <= "0000";
+                        when "100101" => ALUCTRL <= "0001";
+                        when "101010" => ALUCTRL <= "0111";
                         when others => ALUCTRL <= "0000";
              end case;
         when others => ALUCTRL <= "0000";

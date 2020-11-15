@@ -19,6 +19,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 2
 -- Compiling entity alu32
 -- Compiling architecture big_alu of alu32
 
+} {} {}} D:/ModelSim/CompArch/control.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package mips_types
+-- Compiling entity control
+-- Compiling architecture behavioral of control
+
 } {} {}} D:/ModelSim/CompArch/sign.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/sign.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
@@ -71,7 +82,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 2
 -- Compiling entity bit_slice
 -- Compiling architecture stdBitSlice of bit_slice
 
-} {} {}} D:/ModelSim/CompArch/imem.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/imem.vhd
+} {} {}} D:/ModelSim/CompArch/imem.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/imem.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -81,65 +92,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 2
 -- Loading package mips_types
 -- Compiling entity imemory
 -- Compiling architecture rtl of imemory
-** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
-** Error: D:/ModelSim/CompArch/imem.vhd(60): VHDL Compiler exiting
 
-} {11.0 68.0} {}} D:/ModelSim/CompArch/MSB_slice.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/MSB_slice.vhd
+} {} {}} D:/ModelSim/CompArch/MSB_slice.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/MSB_slice.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
