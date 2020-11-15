@@ -1,10 +1,13 @@
-D:/ModelSim/CompArch/bit_slice.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\ModelSim\CompArch\bit_slice.vhd}
+D:/ModelSim/CompArch/shift.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/shift.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity bit_slice
--- Compiling architecture stdBitSlice of bit_slice
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package mips_types
+-- Compiling entity shiftleft
+-- Compiling architecture behavioral of shiftleft
 
 } {} {}} D:/ModelSim/CompArch/alu32.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/alu32.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
@@ -16,12 +19,162 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 2
 -- Compiling entity alu32
 -- Compiling architecture big_alu of alu32
 
-} {} {}} D:/ModelSim/CompArch/MSB_slice.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/MSB_slice.vhd
+} {} {}} D:/ModelSim/CompArch/sign.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/sign.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package mips_types
+-- Compiling entity signextend
+-- Compiling architecture behavioral of signextend
+
+} {} {}} D:/ModelSim/CompArch/mux2.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/mux2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package mips_types
+-- Compiling entity mux2
+-- Compiling architecture behavioral of mux2
+
+} {} {}} D:/ModelSim/CompArch/mux2a.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/mux2a.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package mips_types
+-- Compiling entity mux2a
+-- Compiling architecture behavioral of mux2a
+
+} {} {}} D:/ModelSim/CompArch/reg_file.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/reg_file.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package mips_types
+-- Compiling entity reg_file
+-- Compiling architecture behavior of reg_file
+
+} {} {}} D:/ModelSim/CompArch/bit_slice.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/bit_slice.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bit_slice
+-- Compiling architecture stdBitSlice of bit_slice
+
+} {} {}} D:/ModelSim/CompArch/imem.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/imem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package mips_types
+-- Compiling entity imemory
+-- Compiling architecture rtl of imemory
+** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(39): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(40): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(41): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(42): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(43): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(44): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(45): near "--------": (vcom-1205) Illegal character '-' in bit string literal.
+** Error: D:/ModelSim/CompArch/imem.vhd(60): VHDL Compiler exiting
+
+} {11.0 68.0} {}} D:/ModelSim/CompArch/MSB_slice.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/MSB_slice.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity msb_slice
 -- Compiling architecture MSBBitSlice of msb_slice
+
+} {} {}} D:/ModelSim/CompArch/alu_control.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/alu_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alu_control
+-- Compiling architecture behavioral of alu_control
+
+} {} {}} D:/ModelSim/CompArch/dmem.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/dmem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package mips_types
+-- Compiling entity dmemory
+-- Compiling architecture rtl of dmemory
+
+} {} {}} D:/ModelSim/CompArch/mips_types.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/ModelSim/CompArch/mips_types.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package mips_types
 
 } {} {}}

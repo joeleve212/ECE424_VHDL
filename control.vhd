@@ -42,35 +42,35 @@ begin
        -- set to all zeroes below, but the zeroes are
        -- just placeholders... 
        -- ********************************************
-    when 0 => REGDST <= '0';
+    when 0 => REGDST <= '1';
                   BRANCH <= '0';
                   MEMREAD <= '0';
                   MEMTOREG <= '0';
-                  ALUOP <= "00";
+                  ALUOP <= "10";			-- ALUOP ORDER OF BITS????
                   MEMWRITE <= '0';
                   ALUSRC <= '0';
-                  REGWRITE <= '0';
+                  REGWRITE <= '1';
         when 35 => REGDST <= '0';
                   BRANCH <= '0';
-                  MEMREAD <= '0';
-                  MEMTOREG <= '0';
+                  MEMREAD <= '1';
+                  MEMTOREG <= '1';
                   ALUOP <= "00";
                   MEMWRITE <= '0';
-                  ALUSRC <= '0';
-                  REGWRITE <= '0';
+                  ALUSRC <= '1';
+                  REGWRITE <= '1';
         when 43 => REGDST <= '0';
                   BRANCH <= '0';
                   MEMREAD <= '0';
                   MEMTOREG <= '0';
                   ALUOP <= "00";
-                  MEMWRITE <= '0';
-                  ALUSRC <= '0';
+                  MEMWRITE <= '1';
+                  ALUSRC <= '1';
                   REGWRITE <= '0';
         when 4 => REGDST <= '0';
-                  BRANCH <= '0';
+                  BRANCH <= '1';
                   MEMREAD <= '0';
                   MEMTOREG <= '0';
-                  ALUOP <= "00";
+                  ALUOP <= "01";
                   MEMWRITE <= '0';
                   ALUSRC <= '0';
                   REGWRITE <= '0';
