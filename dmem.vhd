@@ -39,10 +39,10 @@ architecture rtl of dmemory is
    -- Data memory.
    --***************************************************
    signal ram : rammemory := (
-		    x"00000005", -- 00 through 03
-                x"00000006", -- 04 through 07
-                x"00000007", -- 
-                x"00000008", -- 
+		    x"00000001", -- 00 through 03
+                x"00000002", -- 04 through 07
+                x"00000003", -- 
+                x"00000004", -- 
                 x"00000000", --
                 others => x"00000000");
 begin

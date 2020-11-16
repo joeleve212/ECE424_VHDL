@@ -1,4 +1,5 @@
--- datapath file
+-- Joe Leveille & Jon Bayert
+-- Final VHDL Assignment - ECE 424 - Computer Architecture
 -- 
 
 library ieee;
@@ -97,7 +98,7 @@ architecture dataBoi of datapath is
 	SIGNAL inst, ALUResult, outMuxIn1, branchALUin1, wDataMuxin1 : std_logic_vector( 31 downto 0);
 	SIGNAL defNextPC, WriteData, aluIn0, aluIn1, mux2in0, mux2in1  : std_logic_vector( 31 downto 0);
 	SIGNAL REGDST, BRANCH, MEMREAD, MEMTOREG, MEMWRITE, ALUSRC, REGWRITE, Zero, outMuxSel : std_logic;
-	SIGNAL ALUOp : std_logic_vector(1 downto 0);
+	SIGNAL ALUOpDatapath : std_logic_vector(1 downto 0);
 	SIGNAL wRegIn : std_logic_vector(4 downto 0);
 	SIGNAL mainALUctl : std_logic_vector(3 downto 0);
 	
@@ -121,7 +122,7 @@ architecture dataBoi of datapath is
 	CTL: control PORT MAP( 
 		INSTR => inst(31 downto 26), REGDST => RegDst,BRANCH => Branch,
 		MEMREAD => MEMREAD,MEMTOREG => MEMTOREG,MEMWRITE => MEMWRITE,ALUSRC => ALUSRC,
-		REGWRITE => REGWRITE,ALUOP => ALUOP
+		REGWRITE => REGWRITE,ALUOP => ALUOPDatapath
 	);
 	
 	writeRegSel: mux2a PORT MAP( 
@@ -142,7 +143,7 @@ architecture dataBoi of datapath is
 	);
 	
 	ALUctl: alu_control PORT MAP(
-		INSTR=> inst(5 downto 0), ALUop => ALUOp, ALUctrl => mainALUctl
+		INSTR=> inst(5 downto 0), ALUop => ALUOpDatapath, ALUctrl => mainALUctl
 	);
 	
 	mainALU: alu32 PORT MAP( 
