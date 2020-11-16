@@ -23,9 +23,9 @@ VGLPi<TIgz8EKO7Mo6mdSb1
 !s100 0@1l>ma>2@`ZWXI36Qk6;2
 Z8 OV;C;10.6d;65
 32
-Z9 !s110 1605478448
+Z9 !s110 1605483808
 !i10b 1
-Z10 !s108 1605478448.000000
+Z10 !s108 1605483808.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/alu32.vhd|
 Z12 !s107 D:/ModelSim/CompArch/alu32.vhd|
 !i113 1
@@ -66,9 +66,9 @@ V2?45PIGNP?WT4DzOBaVXH0
 !s100 1^jBY]IlACRil[11Qz9XV1
 R8
 32
-Z20 !s110 1605478447
+Z20 !s110 1605483806
 !i10b 1
-Z21 !s108 1605478446.000000
+Z21 !s108 1605483806.000000
 Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/alu_control.vhd|
 Z23 !s107 D:/ModelSim/CompArch/alu_control.vhd|
 !i113 1
@@ -107,11 +107,11 @@ V>n6WY`n2gBYGE;Nl183>_1
 !s100 l]:<n9JkzD5Ae1hOm]07e1
 R8
 32
-Z27 !s110 1605478446
+R20
 !i10b 1
 R21
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/bit_slice.vhd|
-Z29 !s107 D:/ModelSim/CompArch/bit_slice.vhd|
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/bit_slice.vhd|
+Z28 !s107 D:/ModelSim/CompArch/bit_slice.vhd|
 !i113 1
 R13
 R14
@@ -125,40 +125,40 @@ V:`GNJ;Mod96Qba;a1SPKY2
 !s100 N@]2;KQZWaaIIU51GFAgb0
 R8
 32
-R27
+R20
 !i10b 1
 R21
+R27
 R28
-R29
 !i113 1
 R13
 R14
 Econtrol
-Z30 w1605468100
-Z31 DPx4 work 10 mips_types 0 22 YJBLbI_EO>gdO^bUQbS_f3
+Z29 w1605468100
+Z30 DPx4 work 10 mips_types 0 22 YJBLbI_EO>gdO^bUQbS_f3
 R16
 R17
 R3
 R4
 R5
-Z32 8D:/ModelSim/CompArch/control.vhd
-Z33 FD:/ModelSim/CompArch/control.vhd
+Z31 8D:/ModelSim/CompArch/control.vhd
+Z32 FD:/ModelSim/CompArch/control.vhd
 l0
 L16
 V87F@4W6OS6gG2JenllS;o2
 !s100 <om`1D[]Q<o0Z?ldB<?5o2
 R8
 32
-R20
+Z33 !s110 1605483807
 !i10b 1
-Z34 !s108 1605478447.000000
+Z34 !s108 1605483807.000000
 Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/control.vhd|
 Z36 !s107 D:/ModelSim/CompArch/control.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R31
+R30
 R16
 R17
 R3
@@ -170,7 +170,7 @@ VQK6>3CkABX;Ln>M1InJCj2
 !s100 ?8z^aziMBgf]j>6`60;GH2
 R8
 32
-R20
+R33
 !i10b 1
 R34
 R35
@@ -179,8 +179,8 @@ R36
 R13
 R14
 Edatapath
-Z37 w1605477277
-R31
+Z37 w1605483784
+R30
 R16
 R17
 R3
@@ -189,9 +189,9 @@ R5
 Z38 8D:/ModelSim/CompArch/datapath.vhd
 Z39 FD:/ModelSim/CompArch/datapath.vhd
 l0
-L10
-V`SAY9nf3H]];zUn2W7VXE0
-!s100 l`I2o6L=fZ]UOjR=Elo7T1
+L12
+VcL9F>AE^9C2nI1M<E_;a_0
+!s100 YknK908>CT?:f07jbZaBW3
 R8
 32
 R9
@@ -203,16 +203,16 @@ Z41 !s107 D:/ModelSim/CompArch/datapath.vhd|
 R13
 R14
 Adataboi
-R31
+R30
 R16
 R17
 R3
 R4
-Z42 DEx4 work 8 datapath 0 22 `SAY9nf3H]];zUn2W7VXE0
-l104
-L16
-Z43 V3oJU1``:V3ZIGHIz64D?e3
-Z44 !s100 4;ZKhfQKGG<PG]TLA`Kkm3
+DEx4 work 8 datapath 0 22 cL9F>AE^9C2nI1M<E_;a_0
+l106
+L18
+Vm5]1IBE>1z2VBG:3RjC_m0
+!s100 DP^9DE1;OLR1d3`ImeBnK0
 R8
 32
 R9
@@ -224,31 +224,31 @@ R41
 R13
 R14
 Edmemory
-Z45 w1605465554
-R31
+Z42 w1605465554
+R30
 R16
 R17
 R3
 R4
 R5
-Z46 8D:/ModelSim/CompArch/dmem.vhd
-Z47 FD:/ModelSim/CompArch/dmem.vhd
+Z43 8D:/ModelSim/CompArch/dmem.vhd
+Z44 FD:/ModelSim/CompArch/dmem.vhd
 l0
 L21
 V:Q90ENRWo;NolDYCbnT;c2
 !s100 X?9RJXV10K1`a5dX2_no80
 R8
 32
-R20
+R33
 !i10b 1
 R34
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/dmem.vhd|
-Z49 !s107 D:/ModelSim/CompArch/dmem.vhd|
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/dmem.vhd|
+Z46 !s107 D:/ModelSim/CompArch/dmem.vhd|
 !i113 1
 R13
 R14
 Artl
-R31
+R30
 R16
 R17
 R3
@@ -260,40 +260,40 @@ VNF4^o;3gzIo;mI6E4YAE=2
 !s100 Wo8LWgPUk3QUJ3gA3c<Hl2
 R8
 32
-R20
+R33
 !i10b 1
 R34
-R48
-R49
+R45
+R46
 !i113 1
 R13
 R14
 Eimemory
-Z50 w1605468457
-R31
+Z47 w1605468457
+R30
 R16
 R17
 R3
 R4
 R5
-Z51 8D:/ModelSim/CompArch/imem.vhd
-Z52 FD:/ModelSim/CompArch/imem.vhd
+Z48 8D:/ModelSim/CompArch/imem.vhd
+Z49 FD:/ModelSim/CompArch/imem.vhd
 l0
 L19
 VkEj[bZ>=b1aaJlX>OOc5d2
 !s100 [EVlfmDo6:;XCLhX2K[bR2
 R8
 32
-R20
+R33
 !i10b 1
 R34
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/imem.vhd|
-Z54 !s107 D:/ModelSim/CompArch/imem.vhd|
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/imem.vhd|
+Z51 !s107 D:/ModelSim/CompArch/imem.vhd|
 !i113 1
 R13
 R14
 Artl
-R31
+R30
 R16
 R17
 R3
@@ -305,11 +305,11 @@ VK4oVG6]C>k79z6PZ^M=H43
 !s100 RlZO6Tef:`DBfF87@YAHJ3
 R8
 32
-R20
+R33
 !i10b 1
 R34
-R53
-R54
+R50
+R51
 !i113 1
 R13
 R14
@@ -318,7 +318,7 @@ R16
 R17
 R3
 R4
-R45
+R42
 R5
 8D:/ModelSim/CompArch/mips_types.vhd
 FD:/ModelSim/CompArch/mips_types.vhd
@@ -328,7 +328,7 @@ VYJBLbI_EO>gdO^bUQbS_f3
 !s100 ViH[1>VUe_KZN1B@DAELN0
 R8
 32
-R27
+R20
 !i10b 1
 R21
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/mips_types.vhd|
@@ -337,23 +337,23 @@ R21
 R13
 R14
 Emsb_slice
-Z55 w1603237425
+Z52 w1603237425
 R3
 R4
 R5
-Z56 8D:/ModelSim/CompArch/MSB_slice.vhd
-Z57 FD:/ModelSim/CompArch/MSB_slice.vhd
+Z53 8D:/ModelSim/CompArch/MSB_slice.vhd
+Z54 FD:/ModelSim/CompArch/MSB_slice.vhd
 l0
 L4
 V>[NeiIDc^b95HdUjc3bhe0
 !s100 LEXnk@l:KL?g]_Kg;PIdg1
 R8
 32
-R27
+R20
 !i10b 1
 R21
-Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/MSB_slice.vhd|
-Z59 !s107 D:/ModelSim/CompArch/MSB_slice.vhd|
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/MSB_slice.vhd|
+Z56 !s107 D:/ModelSim/CompArch/MSB_slice.vhd|
 !i113 1
 R13
 R14
@@ -367,40 +367,40 @@ VigHA<^ZP3R^>JL6E[0n9A3
 !s100 T:^?T:k[2[i:3f<CEg`RK0
 R8
 32
-R27
+R20
 !i10b 1
 R21
-R58
-R59
+R55
+R56
 !i113 1
 R13
 R14
 Emux2
-R45
-R31
+R42
+R30
 R16
 R17
 R3
 R4
 R5
-Z60 8D:/ModelSim/CompArch/mux2.vhd
-Z61 FD:/ModelSim/CompArch/mux2.vhd
+Z57 8D:/ModelSim/CompArch/mux2.vhd
+Z58 FD:/ModelSim/CompArch/mux2.vhd
 l0
 L16
 VAXB`TolX1?PlMHDgFzk_z1
 !s100 b8cWPjX^RM@``D^Z09>Qa2
 R8
 32
-R20
+R33
 !i10b 1
 R34
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/mux2.vhd|
-Z63 !s107 D:/ModelSim/CompArch/mux2.vhd|
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/mux2.vhd|
+Z60 !s107 D:/ModelSim/CompArch/mux2.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R31
+R30
 R16
 R17
 R3
@@ -412,40 +412,40 @@ Vf@l1eY:AZEBc?T>I>@Zm:2
 !s100 4iULEzVGdIM];AX_YzUiW2
 R8
 32
-R20
+R33
 !i10b 1
 R34
-R62
-R63
+R59
+R60
 !i113 1
 R13
 R14
 Emux2a
-R45
-R31
+R42
+R30
 R16
 R17
 R3
 R4
 R5
-Z64 8D:/ModelSim/CompArch/mux2a.vhd
-Z65 FD:/ModelSim/CompArch/mux2a.vhd
+Z61 8D:/ModelSim/CompArch/mux2a.vhd
+Z62 FD:/ModelSim/CompArch/mux2a.vhd
 l0
 L16
 VS01f[_>Q]ggd9]?eQCJ=H1
 !s100 ogGPhbihXol8B^X5cI2nO1
 R8
 32
-R20
+R33
 !i10b 1
 R34
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/mux2a.vhd|
-Z67 !s107 D:/ModelSim/CompArch/mux2a.vhd|
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/mux2a.vhd|
+Z64 !s107 D:/ModelSim/CompArch/mux2a.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R31
+R30
 R16
 R17
 R3
@@ -457,40 +457,40 @@ V^bhFjVIj>Yof_]D9SGIBV3
 !s100 ?dM6G1BJ9I_`>mf2Ee9`C1
 R8
 32
-R20
+R33
 !i10b 1
 R34
-R66
-R67
+R63
+R64
 !i113 1
 R13
 R14
 Ereg_file
-R45
-R31
+R42
+R30
 R16
 R17
 R3
 R4
 R5
-Z68 8D:/ModelSim/CompArch/reg_file.vhd
-Z69 FD:/ModelSim/CompArch/reg_file.vhd
+Z65 8D:/ModelSim/CompArch/reg_file.vhd
+Z66 FD:/ModelSim/CompArch/reg_file.vhd
 l0
 L37
 VSJW>]>Y7`gaTK6ABOKB_e1
 !s100 `m^lWoXRkD^n:ASk3V79g1
 R8
 32
-R20
+R33
 !i10b 1
 R34
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/reg_file.vhd|
-Z71 !s107 D:/ModelSim/CompArch/reg_file.vhd|
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/reg_file.vhd|
+Z68 !s107 D:/ModelSim/CompArch/reg_file.vhd|
 !i113 1
 R13
 R14
 Abehavior
-R31
+R30
 R16
 R17
 R3
@@ -502,24 +502,24 @@ VcTU[U^3hgZGELAie<5ha90
 !s100 NncQnm=jAnTC>:iS4DYRP1
 R8
 32
-R20
+R33
 !i10b 1
 R34
-R70
-R71
+R67
+R68
 !i113 1
 R13
 R14
 Eshiftleft
-R45
-R31
+R42
+R30
 R16
 R17
 R3
 R4
 R5
-Z72 8D:/ModelSim/CompArch/shift.vhd
-Z73 FD:/ModelSim/CompArch/shift.vhd
+Z69 8D:/ModelSim/CompArch/shift.vhd
+Z70 FD:/ModelSim/CompArch/shift.vhd
 l0
 L17
 VU63fjH:c^TD[zPdE1lfi70
@@ -529,13 +529,13 @@ R8
 R9
 !i10b 1
 R34
-Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/shift.vhd|
-Z75 !s107 D:/ModelSim/CompArch/shift.vhd|
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/shift.vhd|
+Z72 !s107 D:/ModelSim/CompArch/shift.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R31
+R30
 R16
 R17
 R3
@@ -550,21 +550,21 @@ R8
 R9
 !i10b 1
 R34
-R74
-R75
+R71
+R72
 !i113 1
 R13
 R14
 Esignextend
-R45
-R31
+R42
+R30
 R16
 R17
 R3
 R4
 R5
-Z76 8D:/ModelSim/CompArch/sign.vhd
-Z77 FD:/ModelSim/CompArch/sign.vhd
+Z73 8D:/ModelSim/CompArch/sign.vhd
+Z74 FD:/ModelSim/CompArch/sign.vhd
 l0
 L15
 V33gz@0VQ_f5Qgb2R<7McB1
@@ -574,13 +574,13 @@ R8
 R9
 !i10b 1
 R10
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/sign.vhd|
-Z79 !s107 D:/ModelSim/CompArch/sign.vhd|
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/ModelSim/CompArch/sign.vhd|
+Z76 !s107 D:/ModelSim/CompArch/sign.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R31
+R30
 R16
 R17
 R3
@@ -595,8 +595,8 @@ R8
 R9
 !i10b 1
 R10
-R78
-R79
+R75
+R76
 !i113 1
 R13
 R14

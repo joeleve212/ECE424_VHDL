@@ -1,5 +1,5 @@
 -- datapath file
-
+-- 
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -94,7 +94,7 @@ architecture dataBoi of datapath is
 	SIGNAL sys_clock : std_logic := '0';
 	CONSTANT Tcycle : time := 100 ns;
 	
-	SIGNAL inst, ALUResult, outMuxIn1, branchALUin1, wDataMuxin0 : std_logic_vector( 31 downto 0);
+	SIGNAL inst, ALUResult, outMuxIn1, branchALUin1, wDataMuxin1 : std_logic_vector( 31 downto 0);
 	SIGNAL defNextPC, WriteData, aluIn0, aluIn1, mux2in0, mux2in1  : std_logic_vector( 31 downto 0);
 	SIGNAL REGDST, BRANCH, MEMREAD, MEMTOREG, MEMWRITE, ALUSRC, REGWRITE, Zero, outMuxSel : std_logic;
 	SIGNAL ALUOp : std_logic_vector(1 downto 0);
@@ -164,11 +164,11 @@ architecture dataBoi of datapath is
 	);
 	
 	dmem: dmemory PORT MAP( 
-		ADDR => ALUResult, DIN => mux2in0, DOUT => wDataMuxin0, CLK => sys_clock, WE => memWrite, RE =>memRead
+		ADDR => ALUResult, DIN => mux2in0, DOUT => wDataMuxin1, CLK => sys_clock, WE => memWrite, RE =>memRead
 	);
 	
 	wDataMux: mux2 PORT MAP( 
-		IN0 => wDataMuxin0, IN1=>ALUResult, sel=>memToReg, DOUT=>WriteData
+		IN0 => ALUResult, IN1=>wDataMuxin1, sel=>memToReg, DOUT=>WriteData
 	);
 	
 end dataBoi;
